@@ -39,7 +39,7 @@ const AkaConsultingWebsite: React.FC = () => {
               <img src={kittenLogo} alt="Kitten Logo" className="w-48 h-48 object-contain mr-8" />
               <div>
                 <h1 className="text-5xl font-bold text-aka-dark-brown mb-4">Product Consulting Experts</h1>
-                <p className="text-xl mb-6 text-aka-dark-brown">Helping you make better decisions, faster</p>
+                <p className="text-xl mb-6 text-aka-dark-brown">Business Development and Product Consulting Experts</p>
                 <button className="bg-aka-medium-brown text-aka-dark-white px-6 py-3 rounded flex items-center hover:bg-aka-light-brown transition-colors">
                   Get Started <ChevronRight className="ml-2" />
                 </button>
@@ -77,7 +77,7 @@ const AkaConsultingWebsite: React.FC = () => {
   <div className="max-w-7xl mx-auto px-4">
     <h2 className="text-3xl font-bold text-aka-dark-brown mb-8">Industry Expertise</h2>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-      {['Product Growth', 'Artificial Intelligence', 'Medical Software', "Monkeys", "Kittens", "Murdoch Mysteries"].map((industry) => (
+      {['Product Growth', 'AI including ML, LLM Generative AI, and Neural Networks', 'Healthcare', "Benefits", "Start Ups and Early Stage Companies", "Integration and Health Informatics"].map((industry) => (
         <div key={industry} className="flex items-center">
           <Star className="text-aka-beige mr-4" />
           <span className="text-aka-dark-brown">{industry}</span>
