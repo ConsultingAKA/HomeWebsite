@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d4f393e.css",
+    "main.js": "/static/js/main.bcdac403.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/kitten_logo.jpeg": "/static/media/kitten_logo.6f4978edcb948bebb396.jpeg",
+    "index.html": "/index.html",
+    "main.0d4f393e.css.map": "/static/css/main.0d4f393e.css.map",
+    "main.bcdac403.js.map": "/static/js/main.bcdac403.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d4f393e.css",
+    "static/js/main.bcdac403.js"
+  ]
+}
