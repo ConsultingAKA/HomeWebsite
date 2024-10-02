@@ -63,29 +63,26 @@ const AkaConsultingWebsite: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-aka-dark-brown mb-8">What Our Customers Say</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1].map((i) => (
-                <div key={i} className="border border-aka-light-brown p-6 rounded bg-white">
-                  <p className="text-aka-dark-brown mb-4">"AKA Consulting helped us to identify new business opportunities and fine-tune our Go To Market strategy for our product
-                  offering. Their industry knowledge and expertise where instrumental in helping to attract new clients."</p>
-                  <p className="text-aka-medium-brown">- CEO, Healthcare AI Software Firm</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section className="py-12 bg-aka-tan">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-aka-dark-brown mb-8">What Our Customers Say</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[2, 3].map((i) => (
-                <div key={i} className="border border-aka-light-brown p-6 rounded bg-white">
-                  <p className="text-aka-dark-brown mb-4">"AKA Consulting aided us in setting up a PMO and creating an implementation methodology for our new product offering.
-                  This helped us to streamline our delivery and increased client satisfaction."</p>
-                  <p className="text-aka-medium-brown">- COO, Healthcare Benefits Software and Services Company</p>
-                </div>
-              ))}
-            </div>
+  {[
+    {
+      text: `"AKA Consulting helped us to identify new business opportunities and fine-tune our Go To Market strategy for our product offering. Their industry knowledge and expertise were instrumental in helping to attract new clients."`,
+      author: "CEO, Healthcare AI Software Firm"
+    },
+    {
+      text: `"The team at AKA Consulting provided invaluable insights that transformed our product development process. Their guidance led to significant improvements in our user engagement metrics."`,
+      author: "CTO, Tech Startup"
+    },
+    {
+      text: `"Working with AKA Consulting streamlined our operations and boosted our productivity. Their tailored solutions addressed our unique challenges effectively."`,
+      author: "COO, E-commerce Company"
+    }
+  ].map((testimonial, i) => (
+    <div key={i} className="border border-aka-light-brown p-6 rounded bg-white">
+      <p className="text-aka-dark-brown mb-4">{testimonial.text}</p>
+      <p className="text-aka-medium-brown">- {testimonial.author}</p>
+    </div>
+  ))}
+</div>
           </div>
         </section>
 
