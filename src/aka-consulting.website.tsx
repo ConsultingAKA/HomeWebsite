@@ -63,10 +63,26 @@ const AkaConsultingWebsite: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-aka-dark-brown mb-8">What Our Customers Say</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1, 2, 3].map((i) => (
+              {[1].map((i) => (
                 <div key={i} className="border border-aka-light-brown p-6 rounded bg-white">
-                  <p className="text-aka-dark-brown mb-4">"AKA Consulting helped us better understand our users and help us solve their problems better."</p>
-                  <p className="text-aka-medium-brown">- Happy Client, CEO</p>
+                  <p className="text-aka-dark-brown mb-4">"AKA Consulting helped us to identify new business opportunities and fine-tune our Go To Market strategy for our product
+                  offering. Their industry knowledge and expertise where instrumental in helping to attract new clients."</p>
+                  <p className="text-aka-medium-brown">- CEO, Healthcare AI Software Firm</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="py-12 bg-aka-tan">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl font-bold text-aka-dark-brown mb-8">What Our Customers Say</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[2, 3].map((i) => (
+                <div key={i} className="border border-aka-light-brown p-6 rounded bg-white">
+                  <p className="text-aka-dark-brown mb-4">"AKA Consulting aided us in setting up a PMO and creating an implementation methodology for our new product offering.
+                  This helped us to streamline our delivery and increased client satisfaction."</p>
+                  <p className="text-aka-medium-brown">- COO, Healthcare Benefits Software and Services Company</p>
                 </div>
               ))}
             </div>
@@ -138,13 +154,13 @@ const AkaConsultingWebsite: React.FC = () => {
             <div>
               <h3 className="font-bold mb-4 text-aka-beige">Services</h3>
               <ul>
-                <li>Product Strategy</li>
-                <li>Product Management</li>
-                <li>Product Marketing</li>
+                <li>Business Development</li>
+                <li>Fractional CxO</li>
+                <li>Product Strategy and Development</li>
               </ul>
             </div>
             <div>
-              <h3 className="font-bold mb-4 text-aka-beige">Resources</h3>
+             <h3 className="font-bold mb-4 text-aka-beige">Resources</h3>
               <ul>
                 <li>Blog</li>
                 <li>Webinars</li>
@@ -154,7 +170,6 @@ const AkaConsultingWebsite: React.FC = () => {
             <div>
               <h3 className="font-bold mb-4 text-aka-beige">Contact</h3>
               <p>info@akaconsulting.com</p>
-              <p>+1 (123) 456-7890</p>
             </div>
           </div>
         </div>
