@@ -73,8 +73,9 @@ const AkaConsultingWebsite: React.FC = () => {
       author: "CTO, Tech Startup"
     },
     {
-      text: `"Working with AKA Consulting streamlined our operations and boosted our productivity. Their tailored solutions addressed our unique challenges effectively."`,
-      author: "COO, E-commerce Company"
+      text: `"AKA Consulting aided us in setting up a PMO and creating an implementation methodology for our new product offering.
+This helped us to streamline our delivery and increased client satisfaction."`,
+      author: "COO, Healthcare Benefits Software and Services Company"
     }
   ].map((testimonial, i) => (
     <div key={i} className="border border-aka-light-brown p-6 rounded bg-white">
